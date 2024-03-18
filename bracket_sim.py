@@ -1,14 +1,14 @@
 import random
 
 # add the matchups in order for this file to work
-teams = ["Alabama", "AMCC/SMO", "Maryland", "West Virginia", "San Diego St", "Charleston", "Virginia", "Furman",
-         "Creighton", "NC State", "Baylor", "UCSB", "Missouri", "Utah State", "Arizona", "Princeton",
-         "Houston", "N Kentucky", "Iowa", "Auburn", "Miami", "Drake", "Indiana", "Kent State",
-         "Iowa State", "MSST/Pitt", "Xavier", "Kennesaw St", "Texas A&M", "Penn State", "Texas", "Colgate",
-         "Purdue", "TXSO/FDU", "Memphis", "FAU", "Duke", "Oral Roberts", "Tennessee", "Louisiana",
-         "Kentucky", "Providence", "Kansas St", "Montana St", "Michigan St", "USC", "Marquette", "Vermont",
-         "Kansas", "Howard", "Arkansas", "Illinois", "Saint Mary's", "VCU", "UConn", "Iona",
-         "TCU", "ASU/Nev", "Gonzaga", "Grand Canyon", "Northwestern", "Boise St", "UCLA", "UNC Asheville"]
+teams = ["UConn", "Stetson", "FAU", "Northwestern", "San Diego St", "UAB", "Auburn", "Yale",
+         "BYU", "Duquesne", "Illinois", "Morehead St", "Washington St", "Drake", "Iowa State", "S Dakota St",
+         "North Carolina", "HOW/WAG", "Mississippi St", "Michigan St", "Saint Mary's", "Grand Canyon", "Alabama", "Charleston",
+         "Clemson", "New Mexico", "Baylor", "Colgate", "Dayton", "Nevada", "Arizona", "Long Beach St",
+         "Houston", "Longwood", "Nebraska", "Texas A&M", "Wisconsin", "James Madison", "Duke", "Vermont",
+         "Texas Tech", "NC State", "Kentucky", "Oakland", "Florida", "BOIS/COL", "Marquette", "Western Kentucky",
+         "Purdue", "MTST/GRAM", "Utah State", "TCU", "Gonzaga", "McNeese", "Kansas", "Samford",
+         "South Carolina", "Oregon", "Creighton", "Akron", "Texas", "UVA/CSU", "Tennessee", "St. Peter's"]
 
 # game sim
 def simulate_game(team1, team2):

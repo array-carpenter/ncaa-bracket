@@ -19,9 +19,15 @@ h1 {
 }
 
 
+:root {
+    --primary-color: #007bff; 
+    --primary-dark: #0069d9; /* A manually chosen darker shade */
+    --secondary-color: #6c757d; 
+}
+
 .btn-primary:hover {
-    background-color: darken(var(--primary-color), 10%);
-    border-color: darken(var(--primary-color), 10%);
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
 }
 
 

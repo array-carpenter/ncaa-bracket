@@ -46,7 +46,7 @@ function startTournament() {
 
     resultsElement.innerHTML += `<div class="mt-4 alert alert-success" role="alert">
                                     <h4 class="alert-heading">Tournament Winner!</h4>
-                                    <p>Your Randomized 2023 NCAA Men's Tournament Winner is: ${currentTeams[0]}</p>
+                                    <p>Your Randomized 2024 NCAA Men's Tournament Winner is: ${currentTeams[0]}</p>
                                   </div>`;
 }
 

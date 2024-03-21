@@ -1,11 +1,11 @@
 const teams = ["UConn", "Stetson", "FAU", "Northwestern", "San Diego St", "UAB", "Auburn", "Yale",
                "BYU", "Duquesne", "Illinois", "Morehead St", "Washington St", "Drake", "Iowa State", "S Dakota St",
-               "North Carolina", "HOW/WAG", "Mississippi St", "Michigan St", "Saint Mary's", "Grand Canyon", "Alabama", "Charleston",
+               "North Carolina", "Wagner", "Mississippi St", "Michigan St", "Saint Mary's", "Grand Canyon", "Alabama", "Charleston",
                "Clemson", "New Mexico", "Baylor", "Colgate", "Dayton", "Nevada", "Arizona", "Long Beach St",
                "Houston", "Longwood", "Nebraska", "Texas A&M", "Wisconsin", "James Madison", "Duke", "Vermont",
-               "Texas Tech", "NC State", "Kentucky", "Oakland", "Florida", "BOIS/COL", "Marquette", "Western Kentucky",
-               "Purdue", "MTST/GRAM", "Utah State", "TCU", "Gonzaga", "McNeese", "Kansas", "Samford",
-               "South Carolina", "Oregon", "Creighton", "Akron", "Texas", "UVA/CSU", "Tennessee", "St. Peter's"];
+               "Texas Tech", "NC State", "Kentucky", "Oakland", "Florida", "Colorado", "Marquette", "Western Kentucky",
+               "Purdue", "Grambling", "Utah State", "TCU", "Gonzaga", "McNeese", "Kansas", "Samford",
+               "South Carolina", "Oregon", "Creighton", "Akron", "Texas", "Colorado State", "Tennessee", "St. Peter's"];
 
 function simulateGame(team1, team2) {
     return Math.random() < 0.5 ? team1 : team2;
